@@ -11,14 +11,14 @@
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: #333;
+    background-color: #DAA520;
 }
 
 /* Style the topnav links */
 .topnav a {
     float: left;
     display: block;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -26,8 +26,8 @@
 
 /* Change color on hover */
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: black;
+    color: #DAA520;
 }
 
 /* Create three unequal columns that floats next to each other */
@@ -38,12 +38,12 @@
 
 /* Left and right column */
 .column.side {
-    width: 25%;
+    width: 30%;
 }
 
 /* Middle column */
 .column.middle {
-    width: 50%;
+    width: 35%;
 }
 
 /* Clear floats after the columns */
@@ -69,6 +69,7 @@
     background: linear-gradient(red, yellow); /* Standard syntax (must be last) */
 }
 
+/* images */
 img{
   display:block;
   margin-left: auto;
@@ -80,4 +81,29 @@ margin-left: auto;
 margin-right: auto;
 width: 100%;
 height: 150px;
+}
+
+/* body */
+body{
+background-image: url("star.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-size: 100% 100%;
+}
+
+/* text */
+h1{
+color: White;
+}
+
+h2{
+color: White;
+}
+
+p{
+font-size: 20px;
+color: White;
+word-spacing: 5px;
+line-height: 32px;
 }
